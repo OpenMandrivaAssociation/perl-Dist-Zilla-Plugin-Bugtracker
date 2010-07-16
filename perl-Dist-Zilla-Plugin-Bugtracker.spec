@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-Plugin-Bugtracker
-%define upstream_version 1.100701
+%define upstream_version 1.101490
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Automatically sets the bugtracker URL
 License:    GPL+ or Artistic
