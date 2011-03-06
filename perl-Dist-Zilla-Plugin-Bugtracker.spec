@@ -1,5 +1,5 @@
 %define upstream_name    Dist-Zilla-Plugin-Bugtracker
-%define upstream_version 1.101490
+%define upstream_version 1.102670
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -13,8 +13,11 @@ Source0:    http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstre
 
 BuildRequires: perl(Dist::Zilla::Role::MetaProvider)
 BuildRequires: perl(English)
+BuildRequires: perl(MooseX::Types::URI)
+BuildRequires: perl(Test::Differences)
 BuildRequires: perl(File::Find)
 BuildRequires: perl(File::Temp)
+BuildRequires: perl(Test::MockObject)
 BuildRequires: perl(Moose)
 BuildRequires: perl(Test::More) >= 0.940.0
 
